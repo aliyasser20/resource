@@ -17,7 +17,6 @@ router.get("/about",function(req, res) {
 
 // Store all HTML files in dist folder.
 app.use(express.static(__dirname + "/client/dist"));
-app.use(express.static(__dirname + "/client/dist"));
 
 // Add the router
 app.use("/", router);
